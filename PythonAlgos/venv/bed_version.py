@@ -20,14 +20,15 @@ Then 4 is the first bad version.
 '''
 
 
-# The isBadVersion API is already defined for you.
-# @param version, an integer
-# @return a bool
-# def isBadVersion(version):
-
-class Solution(object):
-    def firstBadVersion(self, n):
-        """
-        :type n: int
-        :rtype: int
-        """
+def firstBadVersion(n):
+    l = 1
+    r = n
+    while l < r:
+        m = (l + r) // 2
+        if isBadVersion(m) and not isBadVersion(m - 1):
+            return m
+        elif isBadVersion(m) and isBadVersion(m - 1):
+            r = m - 1
+        elif not isBadVersion(m):
+            l = m + 1
+    return l

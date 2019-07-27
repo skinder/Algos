@@ -1,4 +1,6 @@
 '''
+https://leetcode.com/problems/self-dividing-numbers/
+
 A self-dividing number is a number that is divisible by every digit it contains.
 
 For example, 128 is a self-dividing number because 128 % 1 == 0, 128 % 2 == 0, and 128 % 8 == 0.
@@ -15,3 +17,24 @@ Note:
 
 The boundaries of each input argument are 1 <= left <= right <= 10000
 '''
+
+class Solution(object):
+
+    def is_self_div(self, nbr):
+        for i in str(nbr):
+            if i == '0' or nbr % int(i) != 0:
+                return False
+        return True
+
+
+    def selfDividingNumbers(self, left, right):
+        output = []
+        for nbr in range(left, right + 1):
+            if self.is_self_div(nbr):
+                output.append(nbr)
+        return output
+
+
+
+a = Solution()
+print a.selfDividingNumbers(1, 15)

@@ -19,3 +19,17 @@ Note:
 S and J will consist of letters and have length at most 50.
 The characters in J are distinct.
 '''
+
+from collections import Counter
+
+def count_stones(j, s):
+    output = 0
+    mystones = Counter(s)
+    for i in j:
+        output = output + mystones[i]
+
+    return output
+
+
+
+print count_stones('aAb', "aAAbbbb")

@@ -22,3 +22,23 @@ Output: false
 Explanation: The robot moves left twice. It ends up two "moves" to the left of the origin.
 We return false because it is not at the origin at the end of its moves.
 '''
+
+from collections import Counter
+
+def robot(input):
+    cnt = Counter(input)
+    if cnt['U'] == cnt['D'] and cnt['L'] == cnt['R']:
+        return True #, [0,0]
+    return False #, [cnt['R'] - cnt['L'], cnt['U'] - cnt['D']]
+
+print robot("LR")
+print robot("UDDLLRUUUDUURUDDUULLDRRRR")
+
+
+def robot_2(input):
+    if input.count('U') == input.count('D') and input.count('L') == input.count('R') :
+        return True
+    return False
+
+print robot_2("LR")
+print robot_2("UDDLLRUUUDUURUDDUULLDRRRR")

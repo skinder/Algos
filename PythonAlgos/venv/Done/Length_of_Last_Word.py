@@ -12,10 +12,15 @@ Input: "Hello World"
 Output: 5
 '''
 
-
-class Solution(object):
+class Solution:
     def lengthOfLastWord(self, s):
-        """
-        :type s: str
-        :rtype: int
-        """
+        output = s.split(" ")
+        for i in range(len(output)-1, -1,-1):
+            if len(output[i]) > 0:
+                return len(output[i])
+
+        return 0
+
+
+result = Solution()
+print result.lengthOfLastWord("Hello World")

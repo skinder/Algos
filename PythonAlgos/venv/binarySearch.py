@@ -1,20 +1,35 @@
-def binary_search(lst, x):
-    lst.sort()
-    p = 0
-    r = len(lst) - 1
-    answer = None
-    while p <= r:
-        q = (p + r) // 2
-        if lst[q] == x:
-            answer = q
-            break
-        elif lst[q] > x:
-            r = q - 1
-        elif lst[q] < x:
-            p = q + 1
+# Returns index of x in arr if present, else -1
+def binarySearch(arr, l, r, x):
+    # Check base case
 
-    return answer
+    if r >= l:
+
+        mid = (l + r) // 2
+
+        # If element is present at the middle itself
+        if arr[mid] == x:
+            return mid
+
+            # If element is smaller than mid, then it
+        # can only be present in left subarray
+        elif arr[mid] > x:
+            return binarySearch(arr, l, mid - 1, x)
+
+            # Else the element can only be present
+        # in right subarray
+        else:
+            return binarySearch(arr, mid + 1, r, x)
+
+    else:
+        # Element is not present in the array
+        return -1
 
 
+# Test array
 if __name__ == '__main__':
-    print binary_search([2, 3, 4, 5, 6], 3)
+    arr = [2, 3, 4, 10, 40]
+    x = 10
+    arr.sort()
+    # Function call
+    result = binarySearch(arr, 0, len(arr) - 1, x)
+    print result
