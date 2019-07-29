@@ -29,31 +29,6 @@ print(anagram('abcd','dcba'))
 
 
 
-#WRONG
-def areAnagram(str1, str2):
-    # If two strings have different size
-    if (len(str1) != len(str2)):
-        return False
-
-        # To store the xor value
-    value = 0
-
-    for i in range(0, len(str1)):
-        value = value ^ ord(str1[i])
-        value = value ^ ord(str2[i])
-
-    return value == 0
-
-
-# Driver code
-str1 = "pit"
-str2 = "pro"
-if (areAnagram(str1, str2)):
-    print("The two strings are anagram of each other")
-else:
-    print("The two strings are not anagram of each other")
-
-
 # https://leetcode.com/problems/find-all-anagrams-in-a-string/
 class Solution(object):
     def isAnagram(self, s, t):

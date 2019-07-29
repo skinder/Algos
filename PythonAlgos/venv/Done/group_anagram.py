@@ -62,9 +62,9 @@ class Solution(object):
             if key not in output_list:  # [key]:    #{'act':cat,
                 output_list[key] = [word]
             else:
-                output_list[key].append([word])
+                output_list[key].append(word)
 
-        return output_list
+        return list(output_list.values())
 
 
 

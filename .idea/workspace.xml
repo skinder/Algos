@@ -2,73 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24be7de9-c0a6-41bd-8d41-ef00c03ca6e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/Longest_Common_Prefix.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/Merge_Sorted_Array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/Repeated_Substring_Pattern.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/Student_Attendance_Record.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/Valid_Boomerang.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/Valid_Perfect_Square.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/Word_Pattern.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/anagram.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/buy_sell_stock.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/count_substr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/count_unique_words.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/devisors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/e_Common_Characters.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/e_Implement_strStr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/e_Intersection_of_Two_Arrays.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/group_anagram.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/iop_adress.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/is_numeric.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/lists_strings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/longest_1_seq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/max_subarray.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/maximaz_distance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/merge_sort.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/repeated_string_match.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/revers_words_in_string.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/sorted_sqrt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/top_n.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/versions_cmp.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Group_Anagrams.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Guess_Number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Search_in_Rotated_Sorted_Array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Sorted_List_2_BST.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Unique_Paths.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Validate_Binary_Search_Tree.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Word_Ladder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/e_Merge_Sorted_Array.pyi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/e_Reorder_Log_Files.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/e_repeating_missing.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/for_interview.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/m_LRU_Cache.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/m_Letter_Combinations_Phone_Number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/m_Longest_Palindromic_Substring.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/m_increasing_Subsequences.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/m_remove_dups_linked_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/max_consequent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/recurtion.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/revers_words.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/sample.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/single_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/sum_less_than_x.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgos/.idea/Algos.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PythonAlgos/.idea/Algos.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgos/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PythonAlgos/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgos/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/PythonAlgos/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgos/venv/First_Bad_Version.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgos/venv/Jewels_Stones" beforeDir="false" afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/Jewels_Stones.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgos/venv/Length_of_Last_Word.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/Length_of_Last_Word.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgos/venv/Longest_Common_Prefix.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgos/venv/Merge_Two_Binary_Trees.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonAlgos/venv/Merge_Two_Binary_Trees.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgos/venv/N_Repeated_Element.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/N_Repeated_Element.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgos/venv/Parentheses.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgos/venv/Robot_Return_to_Origin.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/Robot_Return_to_Origin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgos/venv/Rotate_Array.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/Rotate_Array.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgos/venv/Self_Dividing_Numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/Self_Dividing_Numbers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgos/venv/Third_Maximum_Number.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonAlgos/venv/Third_Maximum_Number.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgos/venv/binarySearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonAlgos/venv/binarySearch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgos/venv/find_pairs.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/find_pairs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgos/venv/work_with_arrays.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonAlgos/venv/work_with_arrays.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/2_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/Kth_Largest_Element_in_an_Array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/Sort_Characters_By_Frequency.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/String_Compression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/Top_K_Frequent_Elements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/Top_K_Frequent_Words.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/Valid_Palindrome.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/morse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Valid_Mountain_Array.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonAlgos/venv/Done/Valid_Boomerang.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonAlgos/venv/Valid_Boomerang.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonAlgos/venv/Done/anagram.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/anagram.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonAlgos/venv/Done/group_anagram.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/group_anagram.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PythonAlgos/venv/Unique_Email_Addresses.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/Unique_Email_Addresses.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/Merge_Sorted_Array.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -91,16 +38,66 @@
         <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/Word_Pattern.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="454">
-              <caret line="53" column="46" lean-forward="true" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+              <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Valid_Boomerang.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Valid_Mountain_Array.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/morse.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="27" selection-start-line="27" selection-end-line="37" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/stack.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/skobki.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="37" column="34" lean-forward="true" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/String_Compression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="571">
+              <caret line="79" column="25" lean-forward="true" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/Valid_Boomerang.py">
+        <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/2_sum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -121,16 +118,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PythonAlgos/venv/Self_Dividing_Numbers.py" />
-        <option value="$PROJECT_DIR$/PythonAlgos/venv/Done/Jewels_Stones.py" />
-        <option value="$PROJECT_DIR$/PythonAlgos/venv/Robot_Return_to_Origin.py" />
-        <option value="$PROJECT_DIR$/PythonAlgos/venv/revers_words.py" />
-        <option value="$PROJECT_DIR$/PythonAlgos/venv/Guess_Number.py" />
-        <option value="$PROJECT_DIR$/PythonAlgos/venv/sum_less_than_x.py" />
-        <option value="$PROJECT_DIR$/PythonAlgos/venv/Group_Anagrams.py" />
-        <option value="$PROJECT_DIR$/PythonAlgos/venv/Search_in_Rotated_Sorted_Array.py" />
-        <option value="$PROJECT_DIR$/PythonAlgos/venv/Validate_Binary_Search_Tree.py" />
-        <option value="$PROJECT_DIR$/PythonAlgos/venv/Sorted_List_2_BST.py" />
         <option value="$PROJECT_DIR$/PythonAlgos/venv/Unique_Paths.py" />
         <option value="$PROJECT_DIR$/PythonAlgos/venv/Word_Ladder.py" />
         <option value="$PROJECT_DIR$/PythonAlgos/venv/e_Reorder_Log_Files.py" />
@@ -148,7 +135,6 @@
         <option value="$PROJECT_DIR$/PythonAlgos/venv/Done/Repeated_Substring_Pattern.py" />
         <option value="$PROJECT_DIR$/PythonAlgos/venv/Done/repeated_string_match.py" />
         <option value="$PROJECT_DIR$/PythonAlgos/venv/Done/N_Repeated_Element.py" />
-        <option value="$PROJECT_DIR$/PythonAlgos/venv/Done/anagram.py" />
         <option value="$PROJECT_DIR$/PythonAlgos/venv/Done/Longest_Common_Prefix.py" />
         <option value="$PROJECT_DIR$/PythonAlgos/venv/Done/print_nested_list.py" />
         <option value="$PROJECT_DIR$/PythonAlgos/venv/Done/Self_Dividing_Numbers.py" />
@@ -165,13 +151,24 @@
         <option value="$PROJECT_DIR$/PythonAlgos/venv/Done/max_subarray.py" />
         <option value="$PROJECT_DIR$/PythonAlgos/venv/Done/iop_adress.py" />
         <option value="$PROJECT_DIR$/PythonAlgos/venv/Done/Student_Attendance_Record.py" />
-        <option value="$PROJECT_DIR$/PythonAlgos/venv/Done/group_anagram.py" />
         <option value="$PROJECT_DIR$/PythonAlgos/venv/Done/sorted_sqrt.py" />
         <option value="$PROJECT_DIR$/PythonAlgos/venv/Done/m_increasing_Subsequences.py" />
         <option value="$PROJECT_DIR$/PythonAlgos/venv/Done/Merge_Sorted_Array.py" />
         <option value="$PROJECT_DIR$/PythonAlgos/venv/Done/Word_Pattern.py" />
         <option value="$PROJECT_DIR$/PythonAlgos/venv/Done/Valid_Perfect_Square.py" />
+        <option value="$PROJECT_DIR$/PythonAlgos/venv/Done/anagram.py" />
+        <option value="$PROJECT_DIR$/PythonAlgos/venv/Done/group_anagram.py" />
+        <option value="$PROJECT_DIR$/PythonAlgos/venv/Done/Top_K_Frequent_Words.py" />
+        <option value="$PROJECT_DIR$/PythonAlgos/venv/Done/Top_K_Frequent_Elements.py" />
+        <option value="$PROJECT_DIR$/PythonAlgos/venv/Done/Kth_Largest_Element_in_an_Array.py" />
+        <option value="$PROJECT_DIR$/PythonAlgos/venv/Done/Sort_Characters_By_Frequency.py" />
+        <option value="$PROJECT_DIR$/PythonAlgos/venv/Done/Valid_Palindrome.py" />
         <option value="$PROJECT_DIR$/PythonAlgos/venv/Done/Valid_Boomerang.py" />
+        <option value="$PROJECT_DIR$/PythonAlgos/venv/Done/Valid_Mountain_Array.py" />
+        <option value="$PROJECT_DIR$/PythonAlgos/venv/Done/morse.py" />
+        <option value="$PROJECT_DIR$/PythonAlgos/venv/Unique_Email_Addresses.py" />
+        <option value="$PROJECT_DIR$/PythonAlgos/venv/Done/String_Compression.py" />
+        <option value="$PROJECT_DIR$/PythonAlgos/venv/Done/2_sum.py" />
       </list>
     </option>
   </component>
@@ -185,6 +182,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,7 +212,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -224,8 +221,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/PythonAlgos/venv" />
       <recent name="$PROJECT_DIR$/PythonAlgos/venv/Done" />
+      <recent name="$PROJECT_DIR$/PythonAlgos/venv" />
       <recent name="$PROJECT_DIR$/PythonAlgos/venv/tcl/Done" />
       <recent name="$PROJECT_DIR$/PythonAlgos/venv/Include" />
     </key>
@@ -242,8 +239,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Valid_Perfect_Square">
-    <configuration name="Merge_Sorted_Array" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.2_sum">
+    <configuration name="2_sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algos" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -255,7 +252,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonAlgos/venv/Done/Merge_Sorted_Array.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonAlgos/venv/Done/2_sum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -264,7 +261,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Valid_Perfect_Square" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="String_Compression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algos" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -276,7 +273,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonAlgos/venv/Done/Valid_Perfect_Square.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonAlgos/venv/Done/String_Compression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -285,7 +282,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Word_Pattern" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unique_Email_Addresses" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algos" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -293,11 +290,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonAlgos/venv/Done" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonAlgos/venv" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonAlgos/venv/Done/Word_Pattern.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonAlgos/venv/Done/Unique_Email_Addresses.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -306,7 +303,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="longest_inc_array" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Valid_Mountain_Array" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algos" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -318,7 +315,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonAlgos/venv/Done/longest_inc_array.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonAlgos/venv/Valid_Mountain_Array.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -327,7 +324,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sorted_sqrt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="morse" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algos" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -339,7 +336,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonAlgos/venv/Done/sorted_sqrt.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonAlgos/venv/Done/morse.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -350,11 +347,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Valid_Perfect_Square" />
-        <item itemvalue="Python.Word_Pattern" />
-        <item itemvalue="Python.Merge_Sorted_Array" />
-        <item itemvalue="Python.longest_inc_array" />
-        <item itemvalue="Python.sorted_sqrt" />
+        <item itemvalue="Python.2_sum" />
+        <item itemvalue="Python.String_Compression" />
+        <item itemvalue="Python.Unique_Email_Addresses" />
+        <item itemvalue="Python.morse" />
+        <item itemvalue="Python.Valid_Mountain_Array" />
       </list>
     </recent_temporary>
   </component>
@@ -375,13 +372,13 @@
     <frame x="0" y="23" width="1680" height="975" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3272933" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.398641" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3272933" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.398641" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -411,79 +408,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/e_Reorder_Log_Files.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="48" selection-start-line="1" selection-start-column="48" selection-end-line="1" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/find_pairs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/heap_sort.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/Jewels_Stones.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="22" selection-start-line="22" selection-end-line="22" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Unique_Paths.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="1134" selection-start-line="1134" selection-end-line="1134" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/Length_of_Last_Word.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/polish.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/_abcoll.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="102" selection-start-line="102" selection-end-line="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/abc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="184" selection-start-line="184" selection-end-line="184" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/collections.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="544" selection-start-line="544" selection-end-line="544" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/print_nested_list.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -515,13 +439,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
           <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/skobki.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="80" column="11" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -680,20 +597,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/group_anagram.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/anagram.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/N_Repeated_Element.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -722,13 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/Merge_Sorted_Array.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/Valid_Perfect_Square.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -736,17 +632,124 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/Word_Pattern.py">
+    <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/Merge_Sorted_Array.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="53" column="46" lean-forward="true" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+        <state relative-caret-position="375">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/Valid_Boomerang.py">
+    <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/Kth_Largest_Element_in_an_Array.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        <state relative-caret-position="420">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/Valid_Palindrome.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="24" column="24" lean-forward="true" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/Sort_Characters_By_Frequency.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/Top_K_Frequent_Words.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="27" column="14" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="14" />
+          <folding>
+            <element signature="e#809#840#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/group_anagram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/Top_K_Frequent_Elements.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="e#251#282#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/anagram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/Word_Pattern.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Valid_Boomerang.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Valid_Mountain_Array.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="35" column="33" lean-forward="true" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/morse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="27" selection-start-line="27" selection-end-line="37" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/stack.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/Unique_Email_Addresses.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="37" column="48" lean-forward="true" selection-start-line="37" selection-start-column="48" selection-end-line="37" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/skobki.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="37" column="34" lean-forward="true" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/String_Compression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="79" column="25" lean-forward="true" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/2_sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>

@@ -31,3 +31,23 @@ All local and domain names are non-empty.
 Local names do not start with a '+' character.
 
 '''
+
+
+class Solution(object):
+    def rewriteEmail(self, email):
+        localName, domainName = email.split('@')
+        plusIndex = localName.find('+')
+        if plusIndex != -1:
+            localName = localName[:plusIndex]
+        localName = localName.replace('.', '')
+        return localName + '@' + domainName
+
+    def numUniqueEmails(self, emails):
+        uniqueEmails = set()
+        for email in emails:
+            uniqueEmails.add(self.rewriteEmail(email))
+        return len(uniqueEmails)
+
+a = Solution()
+
+print a.numUniqueEmails(["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"])
