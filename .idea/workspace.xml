@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24be7de9-c0a6-41bd-8d41-ef00c03ca6e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/2_sum.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/Kth_Largest_Element_in_an_Array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/Sort_Characters_By_Frequency.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/String_Compression.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/Top_K_Frequent_Elements.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/Top_K_Frequent_Words.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/Valid_Palindrome.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/morse.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Valid_Mountain_Array.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/Find_Difference.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/Missing_Number.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/Single_Number.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgos/venv/Done/Valid_Boomerang.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonAlgos/venv/Valid_Boomerang.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgos/venv/Done/anagram.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/anagram.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgos/venv/Done/group_anagram.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/group_anagram.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PythonAlgos/venv/Unique_Email_Addresses.py" beforeDir="false" afterPath="$PROJECT_DIR$/PythonAlgos/venv/Done/Unique_Email_Addresses.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,24 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/Merge_Sorted_Array.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/Word_Pattern.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="53" column="46" selection-start-line="53" selection-start-column="46" selection-end-line="53" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Valid_Boomerang.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -93,11 +65,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/2_sum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="330">
+              <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/Single_Number.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/Missing_Number.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/Find_Difference.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
@@ -118,9 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PythonAlgos/venv/Unique_Paths.py" />
-        <option value="$PROJECT_DIR$/PythonAlgos/venv/Word_Ladder.py" />
-        <option value="$PROJECT_DIR$/PythonAlgos/venv/e_Reorder_Log_Files.py" />
         <option value="$PROJECT_DIR$/PythonAlgos/venv/single_number.py" />
         <option value="$PROJECT_DIR$/PythonAlgos/venv/e_repeating_missing.py" />
         <option value="$PROJECT_DIR$/PythonAlgos/venv/m_Longest_Palindromic_Substring.py" />
@@ -169,6 +165,9 @@
         <option value="$PROJECT_DIR$/PythonAlgos/venv/Unique_Email_Addresses.py" />
         <option value="$PROJECT_DIR$/PythonAlgos/venv/Done/String_Compression.py" />
         <option value="$PROJECT_DIR$/PythonAlgos/venv/Done/2_sum.py" />
+        <option value="$PROJECT_DIR$/PythonAlgos/venv/Done/Single_Number.py" />
+        <option value="$PROJECT_DIR$/PythonAlgos/venv/Done/Missing_Number.py" />
+        <option value="$PROJECT_DIR$/PythonAlgos/venv/Done/Find_Difference.py" />
       </list>
     </option>
   </component>
@@ -239,7 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.2_sum">
+  <component name="RunManager" selected="Python.Find_Difference">
     <configuration name="2_sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Algos" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -253,6 +252,69 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonAlgos/venv/Done/2_sum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Find_Difference" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Algos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonAlgos/venv/Done" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonAlgos/venv/Done/Find_Difference.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Missing_Number" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Algos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonAlgos/venv/Done" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonAlgos/venv/Done/Missing_Number.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Single_Number" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Algos" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonAlgos/venv/Done" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonAlgos/venv/Done/Single_Number.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -282,76 +344,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unique_Email_Addresses" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Algos" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonAlgos/venv" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonAlgos/venv/Done/Unique_Email_Addresses.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Valid_Mountain_Array" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Algos" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonAlgos/venv/Done" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonAlgos/venv/Valid_Mountain_Array.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="morse" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Algos" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonAlgos/venv/Done" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonAlgos/venv/Done/morse.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Find_Difference" />
+        <item itemvalue="Python.Missing_Number" />
+        <item itemvalue="Python.Single_Number" />
         <item itemvalue="Python.2_sum" />
         <item itemvalue="Python.String_Compression" />
-        <item itemvalue="Python.Unique_Email_Addresses" />
-        <item itemvalue="Python.morse" />
-        <item itemvalue="Python.Valid_Mountain_Array" />
       </list>
     </recent_temporary>
   </component>
@@ -377,8 +376,8 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32993197" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3272933" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.398641" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3272933" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.398641" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -408,19 +407,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/print_nested_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/cmp_arrays.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/versions_cmp.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/devisors.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="346">
@@ -748,8 +734,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/2_sum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="330">
+          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/Single_Number.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="33" lean-forward="true" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/Missing_Number.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonAlgos/venv/Done/Find_Difference.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
