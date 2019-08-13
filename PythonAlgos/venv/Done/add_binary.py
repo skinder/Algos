@@ -1,10 +1,10 @@
 # This function adds two binary
 # strings return the resulting string
-def add_binary_nums(x, y):
-    max_len = max(len(x), len(y))
+def add_binary_nums(a, b):
+    max_len = max(len(a), len(b))
 
-    x = x.zfill(max_len)
-    y = y.zfill(max_len)
+    a = a.zfill(max_len)
+    b = b.zfill(max_len)
 
     # initialize the result
     result = ''
@@ -15,8 +15,8 @@ def add_binary_nums(x, y):
     # Traverse the string
     for i in range(max_len - 1, -1, -1):
         r = carry
-        r += 1 if x[i] == '1' else 0
-        r += 1 if y[i] == '1' else 0
+        r += 1 if a[i] == '1' else 0
+        r += 1 if b[i] == '1' else 0
         result = ('1' if r % 2 == 1 else '0') + result
         carry = 0 if r < 2 else 1  # Compute the carry.
 
@@ -26,4 +26,4 @@ def add_binary_nums(x, y):
 
 
 # Driver code
-print(add_binary_nums('100', '10100'))
+print(add_binary_nums('11', '1'))
