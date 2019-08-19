@@ -21,6 +21,8 @@ If there are lots of incoming S, say S1, S2, ... , Sk where k >= 1B, and you wan
 
 '''
 
+
+
 class Solution:
     def isSubsequence(self, s, t):
         if not s:
