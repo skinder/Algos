@@ -27,24 +27,25 @@ class TreeNode(object):
 
 class Solution(object):
     def binaryTreePaths(self, root):
-        """
-        :type root: TreeNode
-        :rtype: List[str]
-        """
         if not root: return 0
         self.res = []
         self.helper(root, '')
         #self.helper2(root, 0)
+        return self.res
+
+    def binaryTreeSum(self, root):
+        if not root: return 0
+        self.res = []
+        self.helper2(root, 0)
         return sum(self.res)
 
     def helper(self, root, ls):
         if not root.left and not root.right:
-            to_res = int(ls + str(root.val))
-            self.res.append(to_res)
+            self.res.append(ls + str(root.val))
         if root.left:
-            self.helper(root.left, ls + str(root.val))
+            self.helper(root.left, ls + str(root.val) + '->')
         if root.right:
-            self.helper(root.right, ls + str(root.val))
+            self.helper(root.right, ls + str(root.val) + '->')
 
     def helper2(self, root, ls):
         # sum all numbers
@@ -64,3 +65,5 @@ root.right = TreeNode(3)
 root.left.right = TreeNode(5)
 
 print a.binaryTreePaths(root)
+print a.binaryTreeSum(root)
+

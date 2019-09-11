@@ -21,7 +21,7 @@ def fnmatch(name, pat):
 
     Patterns are Unix shell style:
 
-    *       matches everything
+           matches everything
     ?       matches any single character
     [seq]   matches any character in seq
     [!seq]  matches any char not in seq

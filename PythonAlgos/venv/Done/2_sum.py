@@ -24,9 +24,25 @@ class Solution(object):
                 return [d[i], ind]
 
 
+    def twoSum2(self, nums, target):
+        seen = set()
+        output = []
+
+        for i in nums:
+            check = target - i
+            if check not in seen:
+                seen.add(i)
+            else:
+                output.append([i,check])
+        return output
+
+
+
 a = Solution()
 
 print a.twoSum([-3,4,3,90], 0)
 print a.twoSum([0,4,3,0], 0)
 print a.twoSum([2, 7, 11, 15], 9)
 print "------"
+print a.twoSum2([2, 2, 7, 11, 15, 9, 0], 9)
+print a.twoSum2([0,4,3,0], 0)
