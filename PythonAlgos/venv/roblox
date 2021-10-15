@@ -1,0 +1,213 @@
+def say_hello():
+    print('Hello, World')
+
+for i in range(5):
+    say_hello()
+
+
+#
+# Your previous Plain Text content is preserved below:
+#
+# /*
+#
+# game                                    game_sessions
+# +---------------+-----------+           +-------------+-----------+
+# | developer_id  | int       |---------->| game_id     | integer   |
+# | game_id       | int       |           | user_id     | integer   |
+# | game_name     | varchar   |           | session_id  | integer   |
+# | release_date  | timestamp |        +--| started_at  | timestamp |
+# | genre         | varchar   |        |  | ended_at    | timestamp |
+# +---------------+-----------+        |  +---------------+---------+
+#                                      |
+#                                      |  transactions
+#                                      |  +---------------+-----------+
+#                                      +->| asset_id      | integer   |
+#                                         | user_id       | integer   |
+#                                         | purchased_at  | timestamp |
+#                                         | purchase_amt  | integer   |
+#                                         +---------------+-----------+
+#
+# ------------------------- Table Schema & Sample Data ---------------------------------------------------
+#            Table "game"
+#    Column      |  Type     | Comment
+# ---------------+-----------+----------------------------------------------------------------------------
+#  developer_id  | integer   | Unique identifier of a developer on Roblox
+#  game_id       | integer   | Unique identifier of the game
+#  game_name     | varchar   | The human readable name of the game
+#  release_date  | timestamp | Release date of the game
+#  genre         | varchar   | The genre of the game (i.e. RPG, First Person Shooter, Adventure, etc.)
+#
+#  developer_id   |   game_id    |  game_name       | release_date  | Genre
+# ----------------+----------------------------------------------------------------------------------------
+#   1             |  1111        |  Adopt Me        | 2020-01-01    | adventure
+#   1             |  1121        |  Arsenal         | 2020-08-19    | FPS
+#   2             |  1112        |  Brookehaven     | 2020-09-21    | adventure
+#   3             |  1123        |  Super Golf!     | 2020-09-23    | sports
+#   4             |  1126        |  Murder Mystery  | 2021-01-07    | adventure
+#
+#
+# --------------------------------------------------------------------------------------------------------
+#
+#             Table "game_sessions"
+#    Column      |  Type     | Comment
+# ---------------+-----------+----------------------------------------------------------------------------
+#  game_id       | integer   | Unique identifier of the game
+#  user_id       | integer   | Unique identifier of a user of Roblox
+#  session_id    | integer   | Unique identifier of a game session
+#  started_at    | timestamp | The time a session was started (akin to joining the game)
+#  ended_at      | timestamp | The time a session was end (akin to leaving/ending the game)
+#
+#   game_id   |  user_id  |  session_id  |  started_at          | ended_at
+# ------------+-----------+--------------+----------------------+---------------------
+#   1111      |  2111     |  111111112   | 2021-01-01 12:00:00  | 2021-01-01 12:20:00
+#   1121      |  2111     |  111111113   | 2021-01-01 13:00:00  | 2021-01-01 13:07:01
+#   1111      |  2112     |  111111114   | 2021-01-02 12:00:00  | 2021-01-02 13:38:35
+#   1112      |  2112     |  111111117   | 2021-01-02 14:27:00  | 2021-01-02 15:03:24
+#   1123      |  2222     |  111111115   | 2021-01-03 12:00:00  | 2021-01-03 12:45:01
+#   1123      |  2223     |  111111116   | 2021-01-11 11:38:00  | 2021-01-11 12:39:07
+#
+#
+#
+# --------------------------------------------------------------------------------------------------------
+#             Table "transactions"
+#    Column      |  Type     | Comment
+# ---------------+-----------+----------------------------------------------------------------------------
+#  asset_id      | integer   | Unique identifier of a purchasable asset
+#  user_id       | integer   | Unique identifier of a user of Roblox
+#  purchased_at  | timestamp | The time a purchase was made
+#  purchase_amt  | integer   | The amount of Robux was the transaction for
+#
+#  asset_id   |  user_id    |  purchased_at          |  puchased_amt
+# ------------+-------------+------------------------+------------------
+#   3222      |  2111       |  2021-01-01 12:10:00   |  100
+#   3745      |  2111       |  2021-01-01 14:02:00   |  150
+#   3845      |  2112       |  2021-01-02 14:35:00   |  250
+#   3846      |  2112       |  2021-01-03 14:35:00   |  300
+#   3745      |  2111       |  2021-01-03 14:15:00   |  150
+#   3222      |  2222       |  2021-01-02 12:27:00   |  175
+# */
+#
+# /*
+# 1. For each game, how many unique users played the game and the total timespent (in seconds), per day.
+#
+# Output Format:
+# -- day       | Day of occurrence
+# -- game_id   | The game_id of the game played
+# -- user_cnt  | The number of distinct user's that played the game
+# -- timespent | The total amount of time spent
+# */
+# with gs as (
+# select game_id, started_at, user_id, date_diff('s',started_at, ended_at) timespent
+# from game_sessions
+#
+# )
+# select date(started_at) as day, game_id, count(distinct user_id) as user_cnt, sum(timespent)
+# from gs
+# group by date(started_at), game_id
+#
+#
+# /*
+# 2. What are the top 3 games by genre based on time spent
+#
+# Output Format:
+# -- game_id     | The game_id of the game
+# -- genre       | The genre of the game
+# -- game_rank   | The ordering (numerical) of the game within it's genre based on timespent
+# */
+#
+# with gs as (
+# select g.game_id, g.genre  sum(date_diff('s',started_at, ended_at)) timespent
+# from game_sessions gs inner join game g on g.game_id = gs.game_id
+# group by g.game_id, g.genre
+#
+# )
+#
+#
+# select *
+# from
+# (
+# select game_id, genre, rank() over (partiton by game_id, genre order by timespent desc) game_rank
+# from gs
+# )
+# where game_rank <= 3
+#
+#
+#
+#
+# /*
+# One of the ways to rank games on a platform is through user engagement.
+#
+# Assume we have a file containing data about user activity on a single server.
+#
+# We want to know what the Top Game is, defined by:
+# The Top Game is the game users spent the most time in.
+#
+# Each line of the file has the following information (comma separated):
+# - timestamp in seconds (long)
+# - user id (string)
+# - game id (int)
+# - action (string, either "join" or "quit")
+#
+# e.g.
+# [
+# "1000000000,user1,1001,join", // user 1 joined game 1001
+# "1000000005,user2,1002,join", // user 2 joined game 1002
+# "1000000010,user1,1001,quit", // user 1 quit game 1001 after 10 seconds
+# "1000000020,user2,1002,quit", // user 2 quit game 1002 after 15 seconds
+# ]
+#
+# In this log,
+# The total time spent in game 1001 is 10 seconds.
+# The total time spent in game 1002 is 15 seconds.
+#
+# Hence game 1002 is the Top Game.
+#
+#
+# A user can only join one game at a time in Roblox.
+# This file could be missing some lines of data (e.g. the user joined, but then the app crashed).
+# If data for a session (join to quit) is incomplete, please discard the session.
+#
+# Write a function that returns the top game ID, given an array of strings representing
+# each line in the log file.
+#
+# int topGameID(string[] data) {
+#
+# }
+#
+# */
+#
+
+user1 game1 join 0
+
+user1 game2 join 5
+
+user1 game2 quit 10   user1 game2 = 5
+
+user1 game1 quit 15   user1 game1 = 15 (0)
+
+
+
+userID => gameID, timestamp
+
+gameID => timespent
+
+def get_game(input):
+    user = default_dict()
+    game = default_dict()
+
+
+
+    for i in input:
+        data = i.split(",")
+        if data[-1] == 'join':
+            user[str(data[1])] = (data[2], data[0])
+
+        if data[-1] == 'quit':
+
+            game[data[2]] =
+
+
+
+
+
+user1|1001 = 1000000000 -> 1001 = (1000000010 - 1000000000)
