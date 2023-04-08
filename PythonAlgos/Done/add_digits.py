@@ -42,6 +42,6 @@ class Solution(object):
 
 a = Solution()
 
-print a.addDigits(35555)
-print a.addDigits2(38)
-print a.addDigits2(35555)
+print (a.addDigits(35555))
+print (a.addDigits2(38))
+print (a.addDigits2(35555))

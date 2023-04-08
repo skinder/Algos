@@ -51,4 +51,4 @@ class Solution(object):
 
 a = Solution()
 
-print a.arrangeCoins(8)
+print (a.arrangeCoins(8))

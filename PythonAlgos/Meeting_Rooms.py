@@ -41,6 +41,20 @@ def minMeetingRooms(intervals: List[List[int]]) -> int:
     # The size of the heap tells us the minimum rooms required for all the meetings.
     return len(free_rooms)
 
+'''
+Given an array of meeting time intervals intervals where intervals[i] = [starti, endi], return the minimum number of conference rooms required.
+'''
+def get_rooms_sort(intervals):
+    rooms_nbr = []
+    intervals.sort(key=lambda x: x[0])
+    rooms_nbr.append(intervals[0][1])
+    for i in intervals[1:]:
+        if rooms_nbr[-1] <= i[0]:
+            rooms_nbr.pop()
+        rooms_nbr.append(i[1])
+        rooms_nbr.sort(reverse=True)
+    return len(rooms_nbr)
+
 
 def canAttendMeetings(intervals: List[List[int]]) -> bool:
     '''
@@ -64,4 +78,8 @@ def canAttendMeetings(intervals: List[List[int]]) -> bool:
     return True
 
 
-print(canAttendMeetings([[7,10],[2,4]]))
+
+# print(canAttendMeetings([[7,10],[2,4]]))
+#print(minMeetingRooms([[0,30],[5,10],[15,20]]))
+
+print(get_rooms_sort([[0,30],[5,10],[15,20],[1,4],[2,5]]))
